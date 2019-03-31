@@ -1,0 +1,16 @@
+.shop, .small_product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+}
+.product img{
+    height: 200px;
+}
+.small_product div {
+    margin: 5px;
+}
+.small_product img{
+    width: 100px;
+}

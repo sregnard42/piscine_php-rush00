@@ -1,0 +1,15 @@
+.about_us {
+    background-color: darkseagreen;
+    border: darkseagreen 10px solid;
+    border-radius: 10px;
+    color: black;
+    margin: 10px;
+}
+.about {
+    background-image: url("https://www.certapet.com/wp-content/uploads/2018/07/Dog-with-Broccoli-Can-Dogs-Eat-Broccoli.jpg");
+    width: 480px;
+    height: 270px;
+}
+.about:hover {
+    background-image: url("https://static.lexpress.fr/medias_11813/w_2048,h_1146,c_crop,x_0,y_96/w_480,h_270,c_fill,g_north/v1524572970/jack-russell-terrier-dog-with-broccoli_6048762.jpg");
+}

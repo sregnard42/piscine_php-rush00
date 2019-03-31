@@ -1,0 +1,75 @@
+.shop {
+    width: 75%;
+    text-align: center;
+    margin: 10px auto;
+    background-color: lightyellow;
+    border: darkseagreen 10px solid;
+    border-radius: 10px;
+    color: black;
+}
+
+.shop h2 {
+    color: black;
+}
+.cart {
+    border: black 1px solid;
+    margin: 10px auto;
+}
+.cart table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.your_cart {
+    border-radius: 10px;
+}
+
+.cart table td, .cart table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.cart table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.cart table tr:hover {
+    background-color: #ddd;
+}
+
+.cart table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#button_cart {
+    margin: 10px auto;
+}
+.myButton {
+    background-color:darkseagreen;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    margin: 5px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0 1px 0 #2f6627;
+}
+.myButton a {
+    color:#ffffff;
+}
+.myButton:hover {
+    background-color:#5cbf2a;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}

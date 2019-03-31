@@ -1,0 +1,36 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header, footer {
+    width: 75%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: darkseagreen;
+    border: darkseagreen 9px solid;
+    border-radius: 20px;
+}
+header {
+    height: auto;
+    margin-top: 10px;
+}
+
+.logo {
+    height: 200px;
+}
+
+h2 {
+    color: white;
+}
+
+footer {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+footer div img {
+    height: 150px;
+}

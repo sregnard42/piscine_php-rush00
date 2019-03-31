@@ -1,0 +1,7 @@
+footer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: darkseagreen 1px solid;
+}

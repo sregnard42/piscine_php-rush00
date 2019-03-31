@@ -1,0 +1,49 @@
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+}
+
+.green_bg {
+    background-color: darkseagreen;
+    border: darkseagreen 9px solid;
+    border-radius: 10px;
+    margin: 4px;
+    min-height: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+.text_error {
+    color: red;
+}
+
+.admin_all {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
